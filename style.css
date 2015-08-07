@@ -1,0 +1,105 @@
+html{
+	height:100%;
+}
+
+body{
+	margin:0;
+	padding: 0;
+	background-image: url("images/wood-background.jpg");
+
+
+}
+.header {
+	margin: 0 auto 0 auto;
+	background-color: #FFFFFF;
+	width: 900px;
+	height:100%;
+	padding-top: 20px;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+
+}
+
+.header li {
+	list-style-type: none;
+	text-align: right;
+	text-decoration: underline;
+	padding-bottom: .35px;
+	font-family: arial;
+}
+
+#logo {
+	padding-left: 20px;
+
+}
+
+.header a {
+	color: #EC7A37;
+	padding-right: 20px;
+
+}
+
+.main a {
+	color: #EC7A37;
+}
+
+
+.header h1 {
+	color: #84BE6A;
+	font-family: arial;
+	font-weight: lighter;
+	font-size: 21px;
+	padding-left: 20px;
+
+}
+
+.main h2 {
+	color: #05B8CC;
+	font-family: arial;
+	font-weight: lighter;
+	font-size: 18px;
+}
+
+.main {
+	margin: 0 auto 0 auto;
+	background-color: #FFFFFF;
+	display: block;
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    column-fill:auto;
+    width: 900px;
+	height:100%;
+}
+
+.main li{
+	text-align: left;
+	list-style-type:initial;
+	color: #EC7A37;
+
+}
+
+.main p{
+	font-family: arial;
+
+
+
+}
+
+footer{
+	background-color: #3E7A5E;
+	color: #FFFFFF;
+	font-family: arial;
+	padding-bottom: 100px;
+	padding-top: 10px;
+	text-align: center;
+	width:900px;
+	margin: 0 auto 0 auto;
+	height:100%;
+
+}
+
+
+
